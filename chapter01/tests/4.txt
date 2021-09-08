@@ -1,0 +1,1 @@
+during the year 2038, it will be overflowed. result =  2^31 / (365 * 24 * 60 * 60); we can use 64 bit integer to avoid this problem.

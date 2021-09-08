@@ -1,0 +1,1 @@
+Because the perror function's parameter is a pointer to char, use the qualifier const can prevent the perror from modifying the string content pointed by the paramerter. Whereas, the syrerror's parameter is a intger, which are value passed, the function only get the copy of it's arguments, so there's no need to add a qualifier const.

@@ -1,0 +1,4 @@
+
+veryfied: the dot and dot dot directory are usually not the same in normal directory, the dot directory refers to the current directory itself, wherea the dot dot directory refers to the prarent directory of current directory;
+
+However, int root directory, the dot directory and dot dot directory are the same. Because, there is no parent for root directory.
