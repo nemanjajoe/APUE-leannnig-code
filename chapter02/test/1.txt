@@ -1,0 +1,6 @@
+we can use preprocessor defination to avoid the confliction problem.
+for instance:
+	#ifndef _SIZE_T_DECLARED
+	#define _SIZE_T_DECLARED
+	size_t....
+	#endif
