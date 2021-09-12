@@ -1,0 +1,5 @@
+command 1: ./a.out > outfile 2>&1
+	redirect the program's standard output to outfile, and dups standard output onto descriptor 2. so, the standard output and standard error point to the same file table;
+
+command 2: ./a.out 2>&1 > outfile
+	dups standard error to standard output, then redirect standard out onto outfile. so the descriptor 2 points to standard output, but the descriptor 1 points to the outfile;

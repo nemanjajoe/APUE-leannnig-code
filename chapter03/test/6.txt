@@ -1,0 +1,3 @@
+because it is a atomic operation that the open function with the append flag.
+whenever you do a write call to this file, which is not in conflict with other process doing read/write.
+so, i still can read from anywhere in the file using lseek. but we can not use lseek to replace existing data in the file. 

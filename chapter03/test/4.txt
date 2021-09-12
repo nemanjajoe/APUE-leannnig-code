@@ -1,0 +1,3 @@
+if fd is 1, all dup call return 1 without closing it;
+if fd is 3, all dup call return 3 with closing it;
+so, the if statement is needless.

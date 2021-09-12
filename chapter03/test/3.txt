@@ -1,0 +1,6 @@
+each call to open gives us a new file table, but each dup2 just gives us a new file descripter to the file table.
+because the second open call to the same file with the first, so the new file pointer is pointing to the same v-node table;
+
+fd1; 
+
+fd1 and fd2;

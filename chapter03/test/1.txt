@@ -1,0 +1,3 @@
+no, all disk I/O goes through the kernel's buffer. but from the user's view, all system's call is a atomic operation.
+
+so, they all can be considered unbuffered I/O.
